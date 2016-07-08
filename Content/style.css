@@ -4,6 +4,10 @@
     text-align:center;
     margin-bottom:0px;
 }
+body{
+    background-color: #C8CCC9;
+}
+
 nav{
     margin-top:0px;
 }
@@ -15,17 +19,39 @@ h1{
     margin-bottom:-15px;     
 }
 h2{
-    font-family: 'La Belle Aurore', cursive;    
+   font-family: 'La Belle Aurore', cursive;    
    margin-top:-15px;
 }
 div.feature{
     padding: 0px;
 }
 
-.row .thumbnail{
-    margin: 0px;
+div.feature{
+    background-size: cover;
+    background-position:center;
+
 }
-.row .thumbnail img{
+
+.row .thumbnail{
+    margin-bottom: 0px;
+    /*width:290px;
+    height:290px;*/    
+}
+/*.row .thumbnail img{
     width: 100%;
     height:auto;
+    background-size:cover;
+}*/
+
+.page-header{
+    background-color: #DEE1E3;
+    color: #646466;
+    line-height: 20px;
+    margin-top: 0px;
+}
+.btn{
+    margin-top:45px;
+    margin-bottom: 45px;
+    margin-left:auto;
+    margin-right:auto;
 }
