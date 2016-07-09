@@ -6,6 +6,7 @@
 }
 body{
     background-color: #C8CCC9;
+    
 }
 
 nav{
@@ -29,19 +30,11 @@ div.feature{
 div.feature{
     background-size: cover;
     background-position:center;
-
 }
 
 .row .thumbnail{
-    margin-bottom: 0px;
-    /*width:290px;
-    height:290px;*/    
+    margin-bottom: 0px;        
 }
-/*.row .thumbnail img{
-    width: 100%;
-    height:auto;
-    background-size:cover;
-}*/
 
 .page-header{
     background-color: #DEE1E3;
@@ -49,9 +42,41 @@ div.feature{
     line-height: 20px;
     margin-top: 0px;
 }
-.btn{
+.btn-primary{
     margin-top:300px;
-    margin-bottom: 300px;
+    margin-bottom:300px;
     margin-left:auto;
     margin-right:auto;
+    float:right;       
+}
+.caption{
+    background-color:dimgray;    
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    filter: alpha(opacity=60);    
+}
+.caption h3{    
+     color:#000000;
+     font-weight:bold;
+}
+.textbox1{    
+    background-color:white;
+    width:300px;
+    height: 222px;
+}
+.textbox2{
+   
+    background-color:#6BD4BD;
+    height:300px;
+    height: 222px;
+}
+
+.caption1{
+    color:#191717;
+    text-align:center;
 }
