@@ -47,15 +47,16 @@ div.feature{
     margin-bottom:300px;
     margin-left:auto;
     margin-right:auto;
-    float:right;       
+    float:right;  
+       
 }
 .btn-sm{
     margin-top:100px;
     margin-bottom:100px;
      margin-left:auto;
     margin-right:auto;
-    float:right;
-
+    float:right;  
+      
 }
 .caption{   
     background-color:dimgray;    
@@ -76,25 +77,23 @@ div.feature{
 .textbox1{    
    
     background-color:white;
-      margin-top:100px;
+      /*margin-top:100px;
     margin-bottom:100px;
      margin-left:auto;
     margin-right:auto;
-        float:left;
-   
-    /*width:300px;
-    height: 222px;*/
+        float:left;*/   
+    width:300px;
+    height: 231px;
 }
 .textbox2{
     
     background-color:#6BD4BD;
-      margin-top:100px;
+      /*margin-top:100px;
     margin-bottom:100px;
      margin-left:auto;
-    margin-right:auto;
-    
-    /*height:300px;
-    height: 222px;*/    
+    margin-right:auto;*/    
+    height:300px;
+    height: 231px;    
 }
 .caption0{
     color:#6BD4BD;
@@ -129,3 +128,18 @@ div.feature{
     opacity: 0.6;
     filter: alpha(opacity=60); 
 }
+.caption4 {
+    color: white;
+    background-color: dimgray;  
+    position: absolute;
+    left:    0;
+    bottom:   0; 
+    /*vertical-align: bottom;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);*/
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
